@@ -15,6 +15,7 @@
 
 import piquasso as pq
 import pytest
+pytestmark = pytest.mark.tensorflow
 import tensorflow as tf
 
 

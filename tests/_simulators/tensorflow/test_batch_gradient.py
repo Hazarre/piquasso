@@ -14,6 +14,7 @@
 # limitations under the License.
 
 import pytest
+pytestmark = pytest.mark.tensorflow
 
 import tensorflow as tf
 

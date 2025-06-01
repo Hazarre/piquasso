@@ -14,6 +14,7 @@
 # limitations under the License.
 
 import pytest
+pytestmark = pytest.mark.tensorflow
 import numpy as np
 from scipy.stats import unitary_group
 
@@ -32,9 +33,6 @@ from piquasso.decompositions.clements import (
     get_interferometer_from_weights,
     instructions_from_decomposition,
 )
-
-
-pytestmark = pytest.mark.monkey
 
 
 @pytest.fixture
