@@ -14,8 +14,6 @@
 # limitations under the License.
 
 import piquasso as pq
-import pytest
-pytestmark = pytest.mark.tensorflow
 import tensorflow as tf
 import numpy as np
 
